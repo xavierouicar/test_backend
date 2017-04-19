@@ -7,12 +7,12 @@ Pour résoudre cet exercice, veuillez :
 - Envoyer votre repository ainsi que les explications pour lancer votre serveur à theo@ouicar.fr
 - N'oubliez pas de nous dire combien de temps vous avez pris à faire cet exercice et comment vous l'avez trouvé. Cela n'est pas pris en compte dans l'évaluation mais nous servira pour l'améliorer :-)
 
-Dans cet exercice vous devrez reproduire le coeur du système le location de OuiCar : le dépôt de véhicules ainsi que leur réservation. Tout est ici implicite, à vous d'utiliser les technologies qu'il convient afin de répondre à l'exercice. La seule contrainte est le language de programmation qui devra être PHP, et la base de données devra être de type relationnelle.
+Dans cet exercice vous devrez reproduire le coeur du système le location de OuiCar : le dépôt de véhicules ainsi que leur réservation. À vous d'utiliser les technologies qu'il convient afin d'implémenter votre solution. La seule contrainte est le language de programmation qui devra être PHP, et la base de données devra être de type relationnelle.
 
 Il n'est pas nécessaire d'implémenter la logique d'authentification, on considèrera que l'API permet d'exécuter des actions pour n'importe quel utilisateur.
 
 
-BONUS POINTS* (si vous avez trouvé ça trop facile) :
+BONUS POINTS* (si vous avez trouvé ce test trop facile) :
 - 3pts : Documentation de l'API (swagger ou autre...)
 - 3pts : Tests unitaires - TDD
 - 2pt : Déployer votre serveur en ligne (heroku, aws...)
