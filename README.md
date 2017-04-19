@@ -1,6 +1,6 @@
 # Exercice technque OuiCar
 
-## Consignes générales
+#### Consignes générales
 
 Pour résoudre cet exercice, veuillez : 
 
@@ -23,8 +23,6 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 - 6pts : Gérer l'authentification et les droits d'accès aux ressources
 
 *\*Les Bonus Points sont très appréciés mais ne sont pas obligatoires. Attention à ne pas être contre-productif et perdre du temps, au risque de vous dévaloriser sur ces bonus.*
-
------------------
 
 ## Question n°1 :
 
