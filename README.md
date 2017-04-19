@@ -1,6 +1,6 @@
 # Exercice technque OuiCar
 
-#### Consignes générales
+### Consignes générales
 
 Pour résoudre cet exercice, veuillez : 
 
