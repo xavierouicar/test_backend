@@ -14,12 +14,12 @@ Dans cet exercice vous devrez reproduire le coeur du système le location de Oui
 Il n'est pas nécessaire d'implémenter la logique d'authentification, on considèrera que l'API permet d'exécuter des actions pour n'importe quel utilisateur.
 
 
-### BONUS POINTS* (si vous avez trouvé ce test trop facile) :
+#### BONUS POINTS* (si vous avez trouvé ce test trop facile) :
 - 3pts : Documentation de l'API (swagger ou autre...)
 - 3pts : Tests unitaires - TDD
 - 2pt : Déployer votre serveur en ligne (heroku, aws...)
 
-### MEGA BONUS POINT* (si vraiment vous vous ennuyez beaucoup) : 
+#### MEGA BONUS POINT* (si vraiment vous vous ennuyez beaucoup) : 
 - 6pts : Gérer l'authentification et les droits d'accès aux ressources
 
 *\*Les Bonus Points sont très appréciés mais ne sont pas obligatoires. Attention à ne pas être contre-productif et perdre du temps, au risque de vous dévaloriser sur ces bonus.*
