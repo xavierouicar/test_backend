@@ -22,6 +22,8 @@ MEGA BONUS POINT* (si vraiment vous vous ennuyez beaucoup) :
 
 \*Les Bonus Points sont très appréciés mais ne sont pas obligatoires. Attention à ne pas être contre-productif et perdre du temps, au risque de vous dévaloriser sur ces bonus.
 
+-----------------
+
 Question n°1 :
 
 Écrire une API pour créer une voiture sur OuiCar. Une voiture a les paramètres et contraintes listés ci-dessous : 
