@@ -1,5 +1,7 @@
 # Exercice technque OuiCar
 
+## Consignes générales
+
 Pour résoudre cet exercice, veuillez : 
 
 - Forker ce repository 
@@ -12,19 +14,19 @@ Dans cet exercice vous devrez reproduire le coeur du système le location de Oui
 Il n'est pas nécessaire d'implémenter la logique d'authentification, on considèrera que l'API permet d'exécuter des actions pour n'importe quel utilisateur.
 
 
-BONUS POINTS* (si vous avez trouvé ce test trop facile) :
+### BONUS POINTS* (si vous avez trouvé ce test trop facile) :
 - 3pts : Documentation de l'API (swagger ou autre...)
 - 3pts : Tests unitaires - TDD
 - 2pt : Déployer votre serveur en ligne (heroku, aws...)
 
-MEGA BONUS POINT* (si vraiment vous vous ennuyez beaucoup) : 
+### MEGA BONUS POINT* (si vraiment vous vous ennuyez beaucoup) : 
 - 6pts : Gérer l'authentification et les droits d'accès aux ressources
 
-\*Les Bonus Points sont très appréciés mais ne sont pas obligatoires. Attention à ne pas être contre-productif et perdre du temps, au risque de vous dévaloriser sur ces bonus.
+*\*Les Bonus Points sont très appréciés mais ne sont pas obligatoires. Attention à ne pas être contre-productif et perdre du temps, au risque de vous dévaloriser sur ces bonus.*
 
 -----------------
 
-Question n°1 :
+## Question n°1 :
 
 Écrire une API pour créer une voiture sur OuiCar. Une voiture a les paramètres et contraintes listés ci-dessous : 
 
@@ -33,20 +35,20 @@ Question n°1 :
 - price_day_3 : prix en centimes du jour 3 au jour 6 inclus
 - price_day_7 : prix en centimes à partir du 7ème jour de location
 
-Question n°2 :
+## Question n°2 :
 
 Écrire une API pour signifier qu'une voiture est indisponible et qu'un locataire ne peut pas la louer.
 
 - Les indisponibilités sont des périodes d'une demi-journée, ex: 1 = matin (de 0h00 à 11h59), 2 = aprem (de 12h00 à 23h59) pour une date donnée
 - Une indisponibilité s'applique à une voiture donnée
 
-Question n°3 :
+## Question n°3 :
 
 Écrire une API pour réserver un véhicule à la location. Une location s'effectue entre deux demi journées (début - fin) sur une voiture donnée pour un locataire inscrit dans notre base utilisateur, et il faut bien sûr que la voiture soit disponible à la location sur cette période.
 
 Une voiture est indisponible si le propriétaire l'a signifié via l'API de la question n°2, ou si elle a déjà été réservée sur ces créneaux.
 
-Question n°4 :
+## Question n°4 :
 
 Voilà 3 ans que notre service de réservation existe et que notre magnifique API est utilisée par de nombreux terminaux front (l'app ios, l'app android, le web, le webmobile, ...)
 
