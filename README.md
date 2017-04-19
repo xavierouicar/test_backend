@@ -13,14 +13,14 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 
 
 BONUS POINTS* (si vous avez trouvé ça trop facile) :
-- Documentation de l'API (swagger ou autre...)
-- Tests unitaires - TDD
-- Déployer votre serveur en ligne (heroku, aws...)
+- 3pts : Documentation de l'API (swagger ou autre...)
+- 3pts : Tests unitaires - TDD
+- 2pt : Déployer votre serveur en ligne (heroku, aws...)
 
 MEGA BONUS POINT* (si vraiment vous vous ennuyez beaucoup) : 
-- Gérer l'authentification et les droits d'accès aux ressources - attention si vous attaquez cette partie soyez sûr de vous !
+- 6pts : Gérer l'authentification et les droits d'accès aux ressources
 
-\*Les Bonus Points sont très appréciés mais ne sont pas obligatoires. Attention aussi à ne pas être contre productif et bacler ces bonus points, si vous décidez de les réaliser il faudra les implémenter jusqu'au bout et dans les règles de l'art.
+\*Les Bonus Points sont très appréciés mais ne sont pas obligatoires. Attention à ne pas être contre-productif et perdre du temps, au risque de vous dévaloriser sur ces bonus.
 
 Question n°1 :
 
@@ -40,11 +40,14 @@ Question n°2 :
 
 Question n°3 :
 
-Écrire une API pour réserver un véhicule à la location. Une location s'effectue entre deux demi journées sur une voiture donnée pour un locataire inscrit dans notre base utilisateur, et il faut bien sûr que la voiture soit disponible à la location sur cette période.
+Écrire une API pour réserver un véhicule à la location. Une location s'effectue entre deux demi journées (début - fin) sur une voiture donnée pour un locataire inscrit dans notre base utilisateur, et il faut bien sûr que la voiture soit disponible à la location sur cette période.
+
 Une voiture est indisponible si le propriétaire l'a signifié via l'API de la question n°2, ou si elle a déjà été réservée sur ces créneaux.
 
 Question n°4 :
 
 Voilà 3 ans que notre service de réservation existe et que notre magnifique API est utilisée par de nombreux terminaux front (l'app ios, l'app android, le web, le webmobile, ...)
+
 Nous souhaitons changer le mileage qui n'est pas assez précis (valeur discrète pour le moment) et permettre à nos propriétaires de mettre le kilométrage exact de leur véhicule.
-Mettre à jour en conséquence l'API
+
+Mettre à jour l'API en conséquence
