@@ -8,6 +8,7 @@ Pour résoudre cet exercice, veuillez :
 - N'oubliez pas de nous dire combien de temps vous avez pris à faire cet exercice et comment vous l'avez trouvé. Cela n'est pas pris en compte dans l'évaluation mais nous servira pour l'améliorer :-)
 
 Dans cet exercice vous devrez reproduire le coeur du système le location de OuiCar : le dépôt de véhicules ainsi que leur réservation. Tout est ici implicite, à vous d'utiliser les technologies qu'il convient afin de répondre à l'exercice. La seule contrainte est le language de programmation qui devra être PHP, et la base de données devra être de type relationnelle.
+
 Il n'est pas nécessaire d'implémenter la logique d'authentification, on considèrera que l'API permet d'exécuter des actions pour n'importe quel utilisateur.
 
 
@@ -33,6 +34,7 @@ Question n°1 :
 Question n°2 :
 
 Écrire une API pour signifier qu'une voiture est indisponible et qu'un locataire ne peut pas la louer.
+
 - Les indisponibilités sont des périodes d'une demi-journée, ex: 1 = matin (de 0h00 à 11h59), 2 = aprem (de 12h00 à 23h59) pour une date donnée
 - Une indisponibilité s'applique à une voiture donnée
 
