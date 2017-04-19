@@ -37,12 +37,12 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 
 Écrire une API pour signifier qu'une voiture est indisponible et qu'un locataire ne peut pas la louer.
 
-- Les indisponibilités sont des périodes d'une demi-journée, ex: 1 = matin (de 0h00 à 11h59), 2 = aprem (de 12h00 à 23h59) pour une date donnée
+- Les indisponibilités sont des périodes qui partent d'une date/heure de début jusqu'à une date/heure de fin
 - Une indisponibilité s'applique à une voiture donnée
 
 ## Question n°3 :
 
-Écrire une API pour réserver un véhicule à la location. Une location s'effectue entre deux demi journées (début - fin) sur une voiture donnée pour un locataire inscrit dans notre base utilisateur, et il faut bien sûr que la voiture soit disponible à la location sur cette période.
+Écrire une API pour réserver un véhicule à la location. Une location s'effectue entre deux dates/heures (début - fin) sur une voiture donnée pour un locataire inscrit dans notre base utilisateur, et il faut bien sûr que la voiture soit disponible à la location sur cette période.
 
 Une voiture est indisponible si le propriétaire l'a signifié via l'API de la question n°2, ou si elle a déjà été réservée sur ces créneaux.
 
