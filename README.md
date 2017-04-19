@@ -4,7 +4,7 @@ Pour résoudre cet exercice, veuillez :
 
 - Forker ce repository 
 - Répondre aux questions une à une __sur des branche distinctes__. La branche N démarre bien entendu du code de la branche N-1.
-- Envoyer votre repository ainsi que les explications pour lancer votre serveur à théo@ouicar.fr
+- Envoyer votre repository ainsi que les explications pour lancer votre serveur à theo@ouicar.fr
 - N'oubliez pas de nous dire combien de temps vous avez pris à faire cet exercice et comment vous l'avez trouvé. Cela n'est pas pris en compte dans l'évaluation mais nous servira pour l'améliorer :-)
 
 Dans cet exercice vous devrez reproduire le coeur du système le location de OuiCar : le dépôt de véhicules ainsi que leur réservation. Tout est ici implicite, à vous d'utiliser les technologies qu'il convient afin de répondre à l'exercice. La seule contrainte est le language de programmation qui devra être PHP, et la base de données devra être de type relationnelle.
