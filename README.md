@@ -10,7 +10,7 @@ Pour résoudre cet exercice, veuillez :
 - N'oubliez pas de nous dire combien de temps vous avez pris à faire cet exercice et comment vous l'avez trouvé. Cela n'est pas pris en compte dans l'évaluation mais nous servira pour l'améliorer :-)
 
 Dans cet exercice vous devrez reproduire le coeur du système le location de OuiCar : le dépôt de véhicules ainsi que leur réservation. À vous d'utiliser les technologies qu'il convient afin d'implémenter votre solution. Les contraintes sont les suivantes :  
-- Le language de programmation devra être PHP
+- Le language de programmation devra être PHP 7
 - L'utilisation d'un framework est vivement recommandé ( Symphony, Laravel etc... )
 - La base de donnée devra être de type relationnelle.
 
