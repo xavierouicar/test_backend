@@ -6,10 +6,13 @@ Pour résoudre cet exercice, veuillez :
 
 - Forker ce repository 
 - Répondre aux questions une à une __sur des branche distinctes__. La branche N démarre bien entendu du code de la branche N-1.
-- Envoyer votre repository ainsi que les explications pour lancer votre serveur à theo@ouicar.fr
+- Envoyer votre repository ainsi que les explications pour lancer votre serveur par mail
 - N'oubliez pas de nous dire combien de temps vous avez pris à faire cet exercice et comment vous l'avez trouvé. Cela n'est pas pris en compte dans l'évaluation mais nous servira pour l'améliorer :-)
 
-Dans cet exercice vous devrez reproduire le coeur du système le location de OuiCar : le dépôt de véhicules ainsi que leur réservation. À vous d'utiliser les technologies qu'il convient afin d'implémenter votre solution. La seule contrainte est le language de programmation qui devra être PHP, et la base de données devra être de type relationnelle.
+Dans cet exercice vous devrez reproduire le coeur du système le location de OuiCar : le dépôt de véhicules ainsi que leur réservation. À vous d'utiliser les technologies qu'il convient afin d'implémenter votre solution. Les contraintes sont les suivantes :  
+- Le language de programmation devra être PHP
+- L'utilisation d'un framework est vivement recommandé ( Symphony, Laravel etc... )
+- La base de donnée devra être de type relationnelle.
 
 Il n'est pas nécessaire d'implémenter la logique d'authentification, on considèrera que l'API permet d'exécuter des actions pour n'importe quel utilisateur.
 
