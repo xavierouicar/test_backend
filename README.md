@@ -30,8 +30,8 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 
 - mileage : kilométrage (1 = entre 0 et 50 000 km, 2 = entre 50K et 100K, 3 = entre 100K et 150K, 4 = + de 150K)
 - price_day_1 : prix en centimes du premier jour et du second jour
-- price_day_3 : prix en centimes du jour 3 au jour 6 inclus
-- price_day_7 : prix en centimes à partir du 7ème jour de location
+- price_day_3 : prix en centimes du jour 3 au jour 6 inclus, inférieur à price_day_1
+- price_day_7 : prix en centimes à partir du 7ème jour de location, inférieur à price_day_3
 
 ## Question n°2 :
 
@@ -44,7 +44,9 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 
 Écrire une API pour réserver un véhicule à la location. Une location s'effectue entre deux dates/heures (début - fin) sur une voiture donnée pour un locataire inscrit dans notre base utilisateur, et il faut bien sûr que la voiture soit disponible à la location sur cette période.
 
-Une voiture est indisponible si le propriétaire l'a signifié via l'API de la question n°2, ou si elle a déjà été réservée sur ces créneaux.
+Une voiture est indisponible si le propriétaire l'a signifié via l'API de la question n°2, ou si elle a déjà été réservée sur ces créneaux. 
+
+Le prix de la réservation est calculé grâce à sa durée en jours et le prix journalier de la voiture, qui est dégressif. Un jour comptabilisé est un jour entammé (ex: 01/01 à 14h --> 01/02 à 13h = 1 jour, 01/01 à 14h --> 01/02 à 15h = 2 jours).
 
 ## Question n°4 :
 
