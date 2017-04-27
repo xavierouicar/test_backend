@@ -26,7 +26,7 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 
 ## Question n°1 :
 
-Écrire une API pour créer une voiture sur OuiCar. Une voiture a les paramètres et contraintes listés ci-dessous : 
+Écrire une API pour créer une voiture sur OuiCar. Une voiture a les paramètres suivant des contraintes (à vérifier) listés ci-dessous : 
 
 - mileage : kilométrage (1 = entre 0 et 50 000 km, 2 = entre 50K et 100K, 3 = entre 100K et 150K, 4 = + de 150K)
 - price_day_1 : prix en centimes du premier jour et du second jour
@@ -39,6 +39,7 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 
 - Les indisponibilités sont des périodes qui partent d'une date/heure de début jusqu'à une date/heure de fin
 - Une indisponibilité s'applique à une voiture donnée
+- La date/heure de début doit être inférieure à la date/heure de fin ainsi qu'à la date/heure d'ajourd'hui
 
 ## Question n°3 :
 
@@ -47,6 +48,9 @@ Il n'est pas nécessaire d'implémenter la logique d'authentification, on consid
 Une voiture est indisponible si le propriétaire l'a signifié via l'API de la question n°2, ou si elle a déjà été réservée sur ces créneaux. 
 
 Le prix de la réservation est calculé grâce à sa durée en jours et le prix journalier de la voiture, qui est dégressif. Un jour comptabilisé est un jour entammé (ex: 01/01 à 14h --> 01/02 à 13h = 1 jour, 01/01 à 14h --> 01/02 à 15h = 2 jours).
+
+Exemple : Je fais une réservation du 01/01 15h au 10/01 16h. Cela correspond à 10 jours de location, et le prix calculé sera : 
+- booking->price =  2 * car->price_day_1 + 4 * car->price_day_3 + 4 * car->price_day_7
 
 ## Question n°4 :
 
