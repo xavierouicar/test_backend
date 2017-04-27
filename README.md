@@ -50,7 +50,7 @@ Une voiture est indisponible si le propriétaire l'a signifié via l'API de la q
 Le prix de la réservation est calculé grâce à sa durée en jours et le prix journalier de la voiture, qui est dégressif. Un jour comptabilisé est un jour entammé (ex: 01/01 à 14h --> 01/02 à 13h = 1 jour, 01/01 à 14h --> 01/02 à 15h = 2 jours).
 
 Exemple : Je fais une réservation du 01/01 15h au 10/01 16h. Cela correspond à 10 jours de location, et le prix calculé sera : 
-- booking->price =  2 * car->price_day_1 + 4 * car->price_day_3 + 4 * car->price_day_7
+- `booking->price =  2 * car->price_day_1 + 4 * car->price_day_3 + 4 * car->price_day_7`
 
 ## Question n°4 :
 
